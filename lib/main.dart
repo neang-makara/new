@@ -41,6 +41,9 @@ class _HomeState extends State<Home> {
                 print('$chang');
               });
           }),
+          Center(
+            child: Text("Hello"),
+          )
         ],
       ),
     );
