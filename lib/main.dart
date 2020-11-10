@@ -42,17 +42,9 @@ class _HomeState extends State<Home> {
               });
           }),
           Center(
-            child: Text("Hello day jhdhsifs"),
+            child: Text("Hello day"),
           ),
-          RaisedButton(
-              color: Colors.blue,
-              child: Text("Change",style: TextStyle(color: Colors.white,fontSize: 20),),
-              onPressed: (){
-                setState(() {
-                  chang =! chang;
-                  print('$chang');
-                });
-              }),
+
         ],
       ),
     );
